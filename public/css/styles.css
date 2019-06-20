@@ -1,0 +1,10 @@
+.box {
+  background: #aaa;
+  height: 190px;
+  padding: 10px;
+  text-align: center;
+}
+
+.box:nth-child(2n + 1) {
+  background: #ccc;
+}
